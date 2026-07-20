@@ -21,5 +21,10 @@ public class VariableAndDatatype {
 		System.out.println("d is double type of data with value: " + d);
 		System.out.println("c is char type of data with value: " + c);
 		System.out.println("bo is boolean type of data with value: " + bo);
+		
+		// non primitive data type
+		String str="Hello World!!"; 
+		
+		System.out.println("str is string type of data with value: " + str);
 	}
 }
