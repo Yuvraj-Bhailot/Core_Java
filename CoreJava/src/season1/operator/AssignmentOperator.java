@@ -1,4 +1,4 @@
-package season1;
+package season1.operator;
 
 public class AssignmentOperator {
 	public static void main(String[] args) {

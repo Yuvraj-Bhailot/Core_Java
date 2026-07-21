@@ -1,4 +1,4 @@
-package season1;
+package season1.operator;
 
 public class ArithmeticOperator {
 	public static void main(String[] args) {
