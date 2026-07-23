@@ -33,7 +33,6 @@ Learn the building blocks of Java programming.
 - Dynamic Input (Scanner Class)
 - Decision Making Statements
 - Looping Statements
-- Number Programs
 - Methods
 
 ---
