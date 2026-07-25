@@ -14,6 +14,7 @@ public class Method {
 	}
 
 	public static void main(String[] args) {
+		// static method
 		display(); // can be call by direct name
 		Method.display(); // calling by class name
 		Method m = new Method();
