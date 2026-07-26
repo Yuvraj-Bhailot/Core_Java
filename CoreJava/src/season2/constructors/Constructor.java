@@ -25,6 +25,5 @@ public class Constructor {
 
 		System.out.println("num value in no argument constructor: " + con.num); // no initialization
 		System.out.println("num value in parameterized constructor: " + con2.num); // initialized through parameterized constructor
-
 	}
 }
