@@ -37,6 +37,6 @@ public class NonStaticMembers {
 		NonStaticMembers nsm = new NonStaticMembers();
 		nsm.getMsg();
 
-		System.out.println("MLNSI: " + nsm.shortNum);
+		System.out.println("SLNSI: " + nsm.shortNum);
 	}
 }
