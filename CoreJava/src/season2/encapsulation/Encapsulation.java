@@ -4,22 +4,22 @@ package season2.encapsulation;
  * It's advantage is data hiding.
  * */
 
-class BankDetail{
+class BankDetail {
 	String bankName;
-	//data hiding
+	// data hiding
 	private int bankCode;
-	private String bankAccessPin="IDB1146";
-	
+	private String bankAccessPin = "IDB1146";
+
 	// setter method
 	public void setBankCode(int code) {
-		bankCode=code;
+		bankCode = code;
 	}
-	
+
 	// getter method
 	public int getBankCode() {
 		return bankCode;
 	}
-	
+
 	public String getBankAP() {
 		return bankAccessPin;
 	}
@@ -27,13 +27,13 @@ class BankDetail{
 
 public class Encapsulation {
 	public static void main(String[] args) {
-		BankDetail idb= new BankDetail();
-		
-		idb.bankName="IDB"; // non static member can directly be used
+		BankDetail idb = new BankDetail();
+
+		idb.bankName = "IDB"; // non static member can directly be used
 		idb.setBankCode(1243); // private member can't directly be used
-		
-		System.out.println("Bank name: "+idb.bankName);
-		System.out.println("Bank code: "+idb.getBankCode());
-		System.out.println("Bank access pin: "+idb.getBankAP());
+
+		System.out.println("Bank name: " + idb.bankName);
+		System.out.println("Bank code: " + idb.getBankCode());
+		System.out.println("Bank access pin: " + idb.getBankAP());
 	}
 }
