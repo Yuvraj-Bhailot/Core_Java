@@ -2,6 +2,7 @@ package season2.constructors;
 
 /* Constructor overloading means having multiple constructor with same name.
  * Or we can say that creating constructor with same name but different formal argument.
+ * Constructor overloading is a type of polymorphism.
  * */
 
 public class ConstructorOverloading {
