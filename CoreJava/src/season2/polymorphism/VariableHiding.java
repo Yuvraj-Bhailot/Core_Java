@@ -1,6 +1,7 @@
 package season2.polymorphism;
 
 /* variable hiding means subclass declaring a variable with the same name as a variable in its parent class
+ * variable shadow means variable defined within an inner scope has the exact same name as a variable defined in an outer scope
  * */
 
 class VarOne {
