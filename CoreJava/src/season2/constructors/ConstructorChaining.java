@@ -1,7 +1,7 @@
 package season2.constructors;
 
-/* Constructor chaining means calling same constructor inside another constructor
- * Using this()
+/* Constructor chaining means calling a constructor from another constructor
+ * Using this() or super()
  * */
 
 public class ConstructorChaining {
